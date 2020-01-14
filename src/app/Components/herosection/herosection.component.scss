@@ -2,9 +2,10 @@
     width: 100%;
     height: 100vh;
     //background-color: rosybrown;
+    //background-image: url(/assets/svg/themcurves.svg);
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
-    //background-image: url(../images/pexels-122400.jpg);
+    //background-blend-mode: overlay;
+    animation: gradient 20s ease infinite;
     background-repeat: no-repeat;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -19,14 +20,26 @@
                color:white;
                font-size: 2.7rem;
                margin: 0;
-              /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+               color: white;
+              /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+              animation: gradient 15s ease infinite;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                background-clip: text;*/
+                background-clip: text;
+                background-size: 400% 400%;*/
                 font-family: kalamBold;
             }
             h3{
-                font-weight: lighter;
+                color: white;
+                font-size: 2.5rem;
+                font-family:CutiveMono;
+            }
+            .icon-div{
+                font-size: 35px;
+                color: white;
+                i{
+                    margin-right: 20px;
+                }
             }
         }
     }
@@ -34,6 +47,7 @@
 @media only screen and (max-width: 680px) {
     .herosection{
         .heading{
+            top:30%;
             .main-text{
                 width: 100%;
                 margin: auto;
@@ -50,7 +64,7 @@
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100% 50%;
+        background-position: 100% 50%;
 	}
 	100% {
 		background-position: 0% 50%;
