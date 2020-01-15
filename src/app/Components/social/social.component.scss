@@ -1,0 +1,19 @@
+.social{
+    padding: 5%;
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+    .social-container{
+        margin: 5%;
+        width: 100%;
+        .social-icons{
+            font-size: 40px;
+            display: block;
+            i{
+                justify-content: space-around;
+                padding: 5px;
+                margin: 10px;
+            }
+        }
+    }
+}

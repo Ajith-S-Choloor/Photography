@@ -17,6 +17,7 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
 import { HomeComponent } from './Components/home/home.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { SocialComponent } from './Components/social/social.component';
 
 registerLocaleData(en);
 
@@ -30,7 +31,8 @@ registerLocaleData(en);
     GalleryComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
